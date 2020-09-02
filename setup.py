@@ -10,6 +10,7 @@ tests_requires = [
 
 install_requires = [
     "rasa",
+    "data-tool",
 ]
 
 
