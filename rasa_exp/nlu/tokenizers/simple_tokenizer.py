@@ -15,7 +15,7 @@ if typing.TYPE_CHECKING:
 class OneCharTokenizer(Tokenizer):
     """自定义中文分词组件"""
 
-    provides = ["tokens"]
+    # provides = ["tokens"]
     language_list = ["zh"]
 
     defaults = {
